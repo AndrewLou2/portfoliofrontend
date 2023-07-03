@@ -3,7 +3,7 @@
   "proxy": "http://localhost:5000",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andrewLou2.github.io/portfoliofrontend",
+  "homepage": "http://AndrewLou2.github.io/portfoliofrontend",
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
@@ -29,11 +29,11 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
