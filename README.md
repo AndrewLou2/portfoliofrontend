@@ -1,176 +1,70 @@
-# pi-frontend
+# Getting Started with Create React App
 
-## Table of Contents
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- [pi-frontend](#pi-frontend)
-  - [Table of Contents](#table-of-contents)
-  - [Git Commits Guidelines](#git-commits-guidelines)
-    - [Commit Comments](#commit-comments)
-      - [Template](#template)
-      - [Tag (optional)](#tag-optional)
-  - [Run App in Development Mode](#run-app-in-development-mode)
-    - [Setup environment variables (optional)](#setup-environment-variables-optional)
-    - [Test backend server](#test-backend-server)
-  - [Setup Development Environment](#setup-development-environment)
-    - [Install VS Code](#install-vs-code)
-      - [Suggested Extenstions](#suggested-extenstions)
-    - [Install NodeJS](#install-nodejs)
-    - [Install Yarn](#install-yarn)
-    - [Install Git](#install-git)
-      - [Linux](#linux)
-      - [Windows](#windows)
-      - [OSX](#osx)
-  - [Learning Resources](#learning-resources)
+## Available Scripts
 
-## Git Commits Guidelines
+In the project directory, you can run:
 
-Commit as often as possible with small incremental changes. You should be able to easily describe the whole commit in less than 80 characters.
+### `npm start`
 
-### Commit Comments
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-#### Template
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Use this template for the first line of the message:
+### `npm test`
 
-```text
-[<tag>] (If applied, this commit will...) <subject>
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The message should answer continue the sentence `If applied, this commit will...`
+### `npm run build`
 
-*Example:*
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```text
-[feat] Implement communications with the backend over websocket
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Add more details in the body if needed. Provide links or keys to any relevant tickets, articles or other resources
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-*Example:*
+### `npm run eject`
 
-```text
-Github issue #23
-```
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-**Remember to:**
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Capitalize the subject line
-- Use the imperative mood in the subject line
-- Do not end the subject line with a period
-- Separate subject from body with a blank line
-- Use the body to explain what and why vs. how
-- Can use multiple lines with "-" or "*" for bullet points in body
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-#### Tag (optional)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Could be one of:
+## Learn More
 
-- feat     (new feature)
-- fix      (bug fix)
-- refactor (refactoring code)
-- style    (formatting, missing semi colons, etc; no code change)
-- doc      (changes to documentation)
-- hack     (Temporary fix to make things move forward; please avoid it)
-- WIP      (Work In Progress; for intermediate commits to keep patches reasonably sized)
-- config   (changes some configuration and/or options)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Run App in Development Mode
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-First time after clonning the project you should install all the dependencies.
-Also might be required after a new dependency have been added.
+### Code Splitting
 
-```bash
-yarn install
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-To build and start the application run:
+### Analyzing the Bundle Size
 
-```bash
-yarn start
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Setup environment variables (optional)
+### Making a Progressive Web App
 
-- Make a copy of the [.env.local.EXAMPLE](src/.env.local.EXAMPLE) file and name it `.env.local`
-- Uncomment the variables and modify the variables you need
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Test backend server
+### Advanced Configuration
 
-If you don't have the backend setup and running on your local machine you could use a test cloud server by setting these environment variables:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-```text
-REACT_APP_WS_SERVER_HOST=167.99.181.112
-REACT_APP_WS_SERVER_PORT=8887
-```
+### Deployment
 
-## Setup Development Environment
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### Install VS Code
+### `npm run build` fails to minify
 
-[Get it from here](https://code.visualstudio.com/)
-
-#### Suggested Extenstions
-
-Either run the following line in the terminal (quick method)
-or search each extension through the app and install each manually (slow)
-
-```bash
-code --install-extension DavidAnson.vscode-markdownlint
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension donjayamanne.githistory
-code --install-extension drKnoxy.eslint-disable-snippets
-code --install-extension dzannotti.vscode-babel-coloring
-code --install-extension eamodio.gitlens
-code --install-extension EditorConfig.EditorConfig
-code --install-extension esbenp.prettier-vscode
-code --install-extension Gruntfuggly.todo-tree
-code --install-extension karigari.chat
-code --install-extension mikestead.dotenv
-code --install-extension ms-python.python
-code --install-extension ms-vsliveshare.vsliveshare
-code --install-extension ms-vsliveshare.vsliveshare-audio
-code --install-extension ms-vsliveshare.vsliveshare-pack
-code --install-extension VisualStudioExptTeam.vscodeintellicode
-code --install-extension vscode-icons-team.vscode-icons
-code --install-extension xabikos.JavaScriptSnippets
-code --install-extension xabikos.ReactSnippets
-code --install-extension yzhang.markdown-all-in-one
-```
-
-### Install NodeJS
-
-Get the LTS version (12.x.x) from [here](https://nodejs.org/en/)
-
-### Install Yarn
-
-```bash
-npm install yarn -g
-```
-
-### Install Git
-
-#### Linux
-
-Get it from your package manager. For example, for debain based distros (like Ubuntu) run in the terminal:
-
-```bash
-sudo apt install git
-```
-
-#### Windows
-
-[Get it from here](https://git-scm.com/)
-
-#### OSX
-
-*TODO...*
-
-## Learning Resources
-
-- [HTML Basics (Mozilla)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
-- [CSS Basics (Mozilla)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
-- [Javascript for Beginners (YouTube)](https://www.youtube.com/watch?v=fGdd9qNwQdQ&list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv)
-- [JavaScript Basics (Mozilla)](<[https://link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)>)
-- [Learning React + Redux (YouTube)](https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)
-- [React Official Tutorial](https://reactjs.org/tutorial/tutorial.html)
-- [Electron Quick-Start](https://electronjs.org/docs/tutorial/quick-start)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

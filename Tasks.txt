@@ -1,5 +1,0 @@
-Erin: Blink.js, CtrlButton.js, BPSView.js, CarStateView.js, layout folder
-Lauren: Blink.js, CtrlButton.js, BPSView.js, CarStateView.js, layout folder
-Swathi: ControlBoardContainer.js, SimulatorContainer.js, EnergyFlowDiagram.js, settings folder
-Jackson: ControlBoardContainer.js, SimulatorContainer.js, EnergyFlowDiagram.js, settings folder
-Ahmed: MusicPlayer, BatterCell, Scrubber, Battery, Tabs folder, App.js, index.js
