@@ -1,0 +1,88 @@
+.battery-cell {
+    background-color: #50275861;
+    width: 150px;
+    height: 120px;
+    padding: 2px 16px;
+    margin: 3px;
+    border-radius: 8px;
+    white-space: normal;
+    vertical-align: initial;
+    font-family: Monaco, Menlo, Ubuntu Mono, Droid Sans Mono, Consolas,
+        monospace;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+.battery-cell .val {
+    position: relative;
+    font-family: Monaco, Menlo, Ubuntu Mono, Droid Sans Mono, Consolas,
+        monospace;
+    text-align: right;
+    display: block;
+    float: right;
+    margin-left: 4px;
+    padding-bottom: 0px;
+    font-size: 1.5rem;
+    top: 20px;
+    text-align: center;
+    right: 5px;
+    text-shadow: 3px 2px black;
+}
+
+.battery-cell .head {
+    text-align: left;
+    position: relative;
+    font-family: Monaco, Menlo, Ubuntu Mono, Droid Sans Mono, Consolas,
+        monospace;
+    top: 25px;
+    left: 4px;
+    font-size: 1.5rem;
+    text-shadow: 3px 2px black;
+}
+/*body {
+    padding: 25px 50px;
+}*/
+.battery-cell .battery {
+    border: 3px solid #b7aba3;
+    width: 40px;
+    height: 87px;
+    padding: 8px;
+    border-radius: 4px;
+    position: relative;
+    display: inline-block;
+    right: 10px;
+    top: 15px;
+}
+
+.battery-cell .battery:before {
+    content: "";
+    height: 7px;
+    width: 20px;
+    background: #b7aba3;
+    display: block;
+    position: absolute;
+    margin-left: -1px;
+    top: -8px;
+    border-radius: 4px 4px 0 0;
+}
+
+.battery-cell .battery:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 1px solid #7e7b79;
+    border-radius: 2px;
+}
+
+.battery-cell .battery-level {
+    /*background: #30b455;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}

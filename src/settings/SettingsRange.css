@@ -1,0 +1,13 @@
+.range-component{
+    width: 525px
+}
+.range-component .rangeValue{
+    position: absolute;
+    right: 540px;   
+    display: inline-block;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 450;
+    font-style: italic;
+    font-size: .9em;
+}

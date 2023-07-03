@@ -1,0 +1,196 @@
+.simulator-container {
+    padding: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.sun-car {
+    margin-top: 120px;
+    margin-left: 210px;
+    height: 730px;
+}
+
+img {
+    position: absolute;
+    z-index: 1;
+}
+
+.head-lights {
+    position: absolute;
+    width: 100%;
+    height: 1060px;
+}
+
+.left-turn-signal {
+    position: absolute;
+    background-image: url('../assets/status/left-turn-signal.png');
+    width: 100%;
+    height: 1060px;
+}
+
+.right-turn-signal {
+    position: absolute;
+    background-image: url('../assets/status/right-turn-signal.png');
+    width: 100%;
+    height: 1060px;
+}
+
+.brake-lights {
+    position: absolute;
+    background-image: url('../assets/status/brake-lights.png');
+    width: 100%;
+    height: 1060px;
+}
+
+.horn {
+    position: absolute;
+    color: rgb(216, 38, 216);
+    font-size: 5em;
+    top: 50px;
+    right: -50px;
+    /* left: 370px; */
+    z-index: 100;
+}
+
+.relay-a {
+    z-index: 100;
+    font-size: 2em;
+    font-weight: 800;
+    position: absolute;
+    left: 130px;
+    bottom: 200px;
+    color: greenyellow;
+}
+
+.relay-b {
+    z-index: 100;
+    font-size: 2em;
+    font-weight: 800;
+    position: absolute;
+    left: 130px;
+    bottom: 150px;
+    color: greenyellow;
+}
+
+
+.car {
+    position: center;
+    height: 820px;
+    width: 437px;
+    background-image: url('../assets/status/newCar.png');
+}
+.car .lBlink {
+    
+    background-image: url('../assets/Lblinker.png');
+    position: absolute;
+    top: 139px;
+    left: 104px;
+    display: inline-block;
+    /* background-color: orange; */
+    height: 59px;
+    width: 12px;
+}
+.car .rBlink {
+    background-image: url('../assets/Rblinker.png');
+    position: absolute;
+    top: 139px;
+    left: 364px;
+    display: inline-block;
+    /* background-color: orange; */
+    height: 59px;
+    width: 12px;
+}
+.car .LF {
+    background-image: url('../assets/LF.png');
+    position: absolute;
+    top: 108px;
+    left: 102px;
+    display: inline-block;
+    /* background-color: orange; */
+    height: 90px;
+    width: 60px;
+}
+.car .RF {
+    background-image: url('../assets/RF.png');
+    position: absolute;
+    top: 108px;
+    left: 316px;
+    display: inline-block;
+    /* background-color: orange; */
+    height: 90px;
+    width: 60px;
+}
+
+
+
+.car .LB {
+    
+    background-image: url('../assets/LB.png');
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    display: inline-block;
+    /* background-color: orange; */
+    height: 118px;
+    width: 59px;
+}
+.car .RB {
+    background-image: url('../assets/RB.png');
+    position: absolute;
+    top: 700px;
+    left: 312px;
+    display: inline-block;
+    /* background-color: orange; */
+    height: 118px;
+    width: 59px;
+}
+
+
+
+.car .A {
+    background-color: green;
+    position: absolute;
+    top: 520px;
+    left: 150px;
+    display: inline-block;
+    /* background-color: orange; */
+    height: 50px;
+    width: 50px;
+}
+
+.car .B {
+    background-color: red;
+    position: absolute;
+    top: 520px;
+    left: 210px;
+    display: inline-block;
+    /* background-color: orange; */
+    height: 50px;
+    width: 50px;
+}
+
+.car .C {
+    background-color: green;
+    position: absolute;
+    top: 520px;
+    left: 270px;
+    display: inline-block;
+    /* background-color: orange; */
+    height: 50px;
+    width: 50px;
+}
+
+/*styling for the buttons*/
+.leftTurn {
+    margin-right: 1200px;
+    margin-left: 140px;
+    margin-top: auto;
+    z-index: 3;
+    
+}
+
+.rightTurn {
+    margin-right: 300px;
+    margin-left: 1200px;
+    z-index: 3;
+}

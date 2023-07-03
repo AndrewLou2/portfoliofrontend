@@ -1,0 +1,27 @@
+.app .side-nav-bar {
+  position: fixed;
+  left: 0;
+  background-color: #000000;
+  height: 100%;
+  padding: 0 5px;
+}
+
+.app .side-nav-bar a.nav-link {
+  color: #e9e9e9;
+  padding: 25px 25px 10px 25px;
+  text-align: center;
+}
+.app .side-nav-bar a.nav-link.active {
+  color: #c400c6;
+  /* border-top: solid 5px #c400c6; */
+  /* border-radius: 20%; */
+}
+.app .side-nav-bar a.nav-link .icon {
+  font-size: 4em;
+}
+.app .side-nav-bar a.nav-link .label {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 10px 0 0 0;
+}

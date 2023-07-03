@@ -1,0 +1,11 @@
+$theme-colors: (
+    "primary": #57007e,
+    "success": #c400c6,
+    "info": #ffa069
+);
+
+
+$body-bg: #160f30;
+$body-color: #e5e5e5;
+
+@import "../node_modules/bootstrap/scss/bootstrap";

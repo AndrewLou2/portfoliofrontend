@@ -1,0 +1,14 @@
+.navigation-tab {
+    
+}
+
+.navigation-tab .leaflet-container {
+    height: 1027px;
+    width: 1793px;
+    left: -25px;
+}
+
+.navigation-tab .position-hud {
+    position: relative;
+    size: 200%;
+}

@@ -1,0 +1,40 @@
+.engergy-flow-diagram {
+    position: relative;
+    top: 60px;
+    left: 70px;
+}
+
+.engergy-flow-diagram .sun {
+    position: relative;
+    /* top: 350px; */
+    left: 300px;
+    top: 30px;
+    width: 270px;
+    height: 190px;
+}
+.engergy-flow-diagram .sun-rays {
+    position: relative;
+    top: 85px;
+    left: -100px;
+    width: 220px;
+    transform: rotate(250deg);
+}
+.engergy-flow-diagram .solar-panel {
+    position: relative;
+    width: 250px;
+    left: 30px;
+    top: -30px;
+    display: block;
+}
+
+.engergy-flow-diagram .battery {
+    position: relative;
+    top: -130px;
+    left: 130px;
+}
+.engergy-flow-diagram .car-flow {
+    position: relative;
+    top: -380px;
+    left: 75px;
+    width: 500px;
+}
