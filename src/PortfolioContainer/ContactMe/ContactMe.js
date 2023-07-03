@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
-import { toast } from "react-toastify";
 
 import load1 from "../../../src/images/load2.gif";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
@@ -34,33 +32,6 @@ export default function ContactMe(props) {
     setMessage(e.target.value);
   };
   console.log(name);
-  const submitForm = async (e) => {
-    e.preventDefault();
-    try {
-      let data = {
-        name,
-        email,
-        message,
-      };
-      setBool(true);
-      const res = await axios.post(`/contact`, data);
-      if (name.length === 0 || email.length === 0 || message.length === 0) {
-        setBanner(res.data.msg);
-        toast.error(res.data.msg);
-        setBool(false);
-      } else if (res.status === 200) {
-        setBanner(res.data.msg);
-        toast.success(res.data.msg);
-        setBool(false);
-
-        setName("");
-        setEmail("");
-        setMessage("");
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  };
 
   return (
     <div className="main-container fade-in" id={props.id || ""}>
@@ -85,7 +56,7 @@ export default function ContactMe(props) {
         </div>
       </div>
       <div className="back-form">
-          <form onSubmit={submitForm}>
+          <form >
             <p>{banner}</p>
             <label htmlFor="name">Name</label>
             <input type="text" onChange={handleName} value={name} />
