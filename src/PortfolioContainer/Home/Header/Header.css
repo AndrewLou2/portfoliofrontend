@@ -37,6 +37,11 @@
   .selected-header-option {
     color: #00cdac;
   }
+
+  .bongo {
+    max-height: 80px;
+    margin-left: 50px;
+  }
   
   /*IPAD PRO RESPONSIVENESS*/
   @media only screen and (max-width: 1110px) {

@@ -6,6 +6,7 @@ import {
 import ScrollService from "../../../utilities/ScrollService";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import bongoGif from "../../../images/bongo-cat-transparent.gif"
 import "./Header.css";
 
 export default function Header() {
@@ -71,6 +72,7 @@ export default function Header() {
         </div>
         <div className="header-logo">
           <span>ANDREW LOU~</span>
+          <img class="bongo" src={bongoGif} alt="image not loaded"/>
         </div>
         <div
           className={
