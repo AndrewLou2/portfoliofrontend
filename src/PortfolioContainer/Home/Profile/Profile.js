@@ -27,9 +27,7 @@ export default function Profile() {
               {" "}
               Hi, I'm <span className="highlighted-text">Andrew.</span>
             </span>
-            <h1 className="profile-role-tagline">
-              Currently a software engineering student.
-            </h1>
+            <h1 className="profile-role-tagline">Software Engineer.</h1>
           </div>
         </div>
       </div>

@@ -15,15 +15,15 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "I’m a student at the University of Western Ontario, pursuing a software engineering degree. I love to create things on the internet and I push myself everyday to learn more tools and technologies. I am also able to absorb new concepts quickly, while tackling new challenges.",
+      "I love to create things on the internet and I push myself everyday to learn more tools and technologies. I am also able to absorb new concepts quickly, while tackling new challenges.",
     highlights: {
       bullets: [
-        "Front-end development ",
-        "Back-end development",
+        "Full-stack Web Development",
+        "DevOps",
         "Windows/Linux",
-        "Web design",
+        "Embedded Systems Development",
       ],
-      heading: "Some things I'm currently learning:",
+      heading: "Some of my expertises:",
     },
   };
   const renderHighlight = () => {
@@ -60,7 +60,7 @@ export default function AboutMe(props) {
             </div>
 
             <div className="about-me-options">
-              <a href="https://drive.google.com/file/d/1y47SYmPqFvgTU5nCVT0tkiHswJwLwOvb/view?usp=sharing" >
+              <a href="https://drive.google.com/file/d/1y47SYmPqFvgTU5nCVT0tkiHswJwLwOvb/view?usp=sharing">
                 <button className="btn btn-down btn-down--black">Resume</button>
               </a>
             </div>

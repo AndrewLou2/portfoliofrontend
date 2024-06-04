@@ -112,38 +112,42 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
+          heading={"Godwise International"}
+          subHeading={"Software Developer"}
+          fromDate={"May2021"}
+          toDate={"Present"}
+        />
+        <div className="experience-description-text">
+          <span className="resume-description-text">
+            - Enhanced data security by developing a multi-factor authentication
+            system using Python, resulting in a 40% reduction in unauthorized
+            access by improving system stability for increased remote usage
+          </span>
+        </div>{" "}
+        <br />
+        <ResumeHeading
           heading={"J.D. Power"}
-          subHeading={"Software Engineer Intern"}
+          subHeading={"Software Developer Intern"}
           fromDate={"May2022"}
           toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            - Architected and implemented 8 features that enhances the overall efficiency of search, sort and collection of vehicle data
-using Java and GWT.{" "}
+            - Architected and implemented 8 features that enhances the overall
+            efficiency of search, sort and collection of vehicle data using Java
+            and GWT.{" "}
           </span>
           <br />
           <span className="resume-description-text">
-            - Designed and built an efficient algorithm to reduce the Spring Boot automation testing run-time by 30%.{" "}
+            - Designed and built an efficient algorithm to reduce the Spring
+            Boot automation testing run-time by 30%.{" "}
           </span>
           <br />
           <span className="resume-description-text">
-            -  Integrated and maintained various mySQL queries which improved the input/output of vehicle data.{" "}
+            - Integrated and maintained various mySQL queries which improved the
+            input/output of vehicle data.{" "}
           </span>
           <br />
-          <br />
-        </div>
-        <ResumeHeading
-          heading={"UWO Sunstang"}
-          subHeading={"Software Project Team Lead"}
-          fromDate={"Sep2021"}
-          toDate={"May2022"}
-        />
-        <div className="experience-description-text">
-          <span className="resume-description-text">
-            - Coordinated a team of 12 engineering students forthe steering
-            wheel, infotainment system and the chase cartelemetry project
-          </span>
           <br />
         </div>
       </div>

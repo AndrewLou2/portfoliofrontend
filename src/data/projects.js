@@ -3,8 +3,19 @@ import portfolio from "../images/portfolio_website.png";
 import tob from "../images/ToB.png";
 import connect from "../images/connect-4.png";
 import chatroom from "../images/OS_chatroom.png";
+import mealBuddy from "../images/MealBuddy.png";
 
 const portfolios = [
+  {
+    id: 6,
+    category: "React JS",
+    image: mealBuddy,
+    link1:
+      "https://drive.google.com/file/d/1UlBdTBSrrWe2h4-Du-r28krLFwpg_MBd/view?usp=sharing",
+    link2: "https://www.google.com",
+    title: "Meal Buddy AI",
+    text: "Full-stack responsive mobile app that suggests home cook recipes for users using generative AI",
+  },
   {
     id: 3,
     category: "React JS",
