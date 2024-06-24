@@ -96,7 +96,7 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"University of Western Ontario"}
-        subHeading={"Bachelor of Engineering in Software Engineering"}
+        subHeading={"Bachelor of Engineering Science in Software Engineering"}
         fromDate={"2019"}
         toDate={"2024"}
       />
