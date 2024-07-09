@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfoliofrontend/static/css/main.a7f3abd4.css",
-    "main.js": "/portfoliofrontend/static/js/main.a4d91a72.js",
-    "static/js/787.44e022fc.chunk.js": "/portfoliofrontend/static/js/787.44e022fc.chunk.js",
+    "main.css": "/portfoliofrontend/static/css/main.77854b25.css",
+    "main.js": "/portfoliofrontend/static/js/main.7e36e537.js",
+    "static/js/787.cec15d5d.chunk.js": "/portfoliofrontend/static/js/787.cec15d5d.chunk.js",
     "static/media/me.png": "/portfoliofrontend/static/media/me.c410b0be2f5f556dbc22.png",
     "static/media/ToB.png": "/portfoliofrontend/static/media/ToB.343e13a4e77619596ebf.png",
     "static/media/Poppins-Thin.ttf": "/portfoliofrontend/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -25,12 +25,12 @@
     "static/media/interests.svg": "/portfoliofrontend/static/media/interests.311391e8b5ae1f2a7364.svg",
     "static/media/education.svg": "/portfoliofrontend/static/media/education.9ed8b53812c3beb648e1.svg",
     "static/media/work-history.svg": "/portfoliofrontend/static/media/work-history.f8127a79c81e4defe8bc.svg",
-    "main.a7f3abd4.css.map": "/portfoliofrontend/static/css/main.a7f3abd4.css.map",
-    "main.a4d91a72.js.map": "/portfoliofrontend/static/js/main.a4d91a72.js.map",
-    "787.44e022fc.chunk.js.map": "/portfoliofrontend/static/js/787.44e022fc.chunk.js.map"
+    "main.77854b25.css.map": "/portfoliofrontend/static/css/main.77854b25.css.map",
+    "main.7e36e537.js.map": "/portfoliofrontend/static/js/main.7e36e537.js.map",
+    "787.cec15d5d.chunk.js.map": "/portfoliofrontend/static/js/787.cec15d5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7f3abd4.css",
-    "static/js/main.a4d91a72.js"
+    "static/css/main.77854b25.css",
+    "static/js/main.7e36e537.js"
   ]
 }
